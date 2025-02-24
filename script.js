@@ -8,15 +8,15 @@ function timeJs(){
     let date= new Date()
     
     // Get local hour
-    let bdhour= date.getHours();
-    let ampm = bdhour >= 12 ? "PM" : "AM";
+    let bdHour= date.getHours();
+    let ampm = bdHour >= 12 ? "PM" : "AM";
 
     // Convert to 12-hour format
-    bdhour = bdhour % 12 || 12;
+    bdHour = bdHour % 12 || 12;
 
 
     day.innerHTML=date.getDate().toString().padStart(2,"0")
-    hour.innerHTML=bdhour.toString().padStart(2,"0")+ "  " + ampm
+    hour.innerHTML=bdHour.toString().padStart(2,"0")+ "  " + ampm
     minute.innerHTML=date.getMinutes().toString().padStart(2,"0")
     second.innerHTML=date.getSeconds().toString().padStart(2,"0")
 }
