@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #1D7373;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 980px;
+    height: 200px;
+    background: #E0FFFF;
+    border-radius: 30px;
+    box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.3);
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    color: #DC143C;
+}
+h1 span{
+ color: #000080;
+}
+.head{
+    color: #00FF00;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
