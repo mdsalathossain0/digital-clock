@@ -24,4 +24,4 @@ function timeJs(){
 
 setInterval(()=>{
     timeJs()
-}, 1000)
+}, 100)
